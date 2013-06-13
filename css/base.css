@@ -9,7 +9,7 @@ a {
 
 .sidebar {
   position: fixed;
-  left: 15px;
+  left: 30px;
   top: 15px;
   width: 80px;
   font-family: Helvetica, sans-serif; }
@@ -26,14 +26,14 @@ a {
     text-transform: uppercase;
     margin: 10px 0 20px 0; }
     .sidebar .name #fname {
-      padding-left: 1px;
-      font-size: 23px;
+      padding-left: 0;
+      font-size: 27px;
+      font-weight: bold;
       letter-spacing: 5px;
       color: black; }
     .sidebar .name #lname {
       font-size: 17px;
-      font-weight: bold;
-      letter-spacing: 1px;
+      letter-spacing: 0;
       color: black; }
   .sidebar .meta a {
     margin-left: 0px;
@@ -41,12 +41,12 @@ a {
     .sidebar .meta a:hover {
       color: #227ce8; }
   .sidebar .sections {
-    margin: 15px 0 0 0; }
+    margin: 50px 0 0 0; }
     .sidebar .sections a {
       padding: 3px 0;
       color: black;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 14px;
       display: block; }
       .sidebar .sections a:hover {
         color: #227ce8; }
@@ -59,7 +59,7 @@ a {
 
 .content {
   max-width: 650px;
-  margin-left: 110px;
+  margin-left: 140px;
   margin-right: 20px;
   margin-bottom: 50px; }
   .content h1 {
