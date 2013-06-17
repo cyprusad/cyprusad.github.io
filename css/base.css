@@ -94,13 +94,14 @@ a {
     text-decoration: none; }
   .content h1 {
     font-size: 36px;
+    font-weight: bold;
     margin: 18px 0 5px 0; }
   .content h2 {
     font-size: 30px;
     margin-bottom: 15px; }
   .content h3 {
     color: #777;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 5px;
     margin-bottom: 10px; }
   .content p {
@@ -162,7 +163,8 @@ a {
       margin: 0;
       padding: 0; }
     .content .listing li {
-      font-size: 13px;
+      font-size: 19px;
+      font-weight: bold;
       list-style: none;
       padding: 5px 3px;
       margin: 0;
