@@ -11,8 +11,9 @@ a {
   position: fixed;
   left: 60px;
   top: 60px;
-  width: 150px;
-  font-family: Helvetica, sans-serif; }
+  width: 170px;
+  font-family: Helvetica, sans-serif;
+  border-right: 1px solid #eee; }
   .sidebar a {
     text-decoration: none; }
   .sidebar img {
@@ -60,7 +61,7 @@ a {
 
 .content {
   max-width: 650px;
-  margin-left: 240px;
+  margin-left: 290px;
   margin-right: 20px;
   margin-bottom: 50px;
   margin-top: 60px; }
