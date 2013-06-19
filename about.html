@@ -8,4 +8,16 @@ title: "About"
   <h1>{{ site.name }}</h1>
 
   <p>Welcome to this place I call my home on the internet. I am a CS undergrad at University of Waterloo.</p>
+  <div id="now-playing">
+    <script type="text/javascript">
+      $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=cyprusad&limit=1&api_key=0178b03bc995e6f525bc7733677e9d8b&format=json", function(data){
+          var display = 'I am listening to ';
+          var link = data.recenttracks.track.url;
+          display += '<a href="' + link + '">';
+          display += data.recenttracks.track.artist['#text'] + ' - ' +
+                     data.recenttracks.track.name + '</a>. ';
+          $('#now-playing').html(display);
+          });
+    </script>
+  </div>
 </section>
