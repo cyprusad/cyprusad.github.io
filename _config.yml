@@ -5,9 +5,11 @@ auto: true
 rdiscount:
   extensions: [smart]
 
+title: Sai Warang
 name: Sai Warang
 url: http://saiwarang.com
-description: Jekyll blog is ninja
+description: "Sai's blog about code, zen, systems and communication" 
 twitter: cyprusad
 github: cyprusad
+avataar: /images/sai.jpeg 
 gravatar_url: http://gravatar.com/avatar/ecf559571ebd26f6600a5a1881090e1b
