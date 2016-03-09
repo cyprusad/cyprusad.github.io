@@ -2,6 +2,8 @@
 layout: post
 title: First post
 category: posts
+description: Sai's first real slice of the interwebs
+thumbnail: /images/pizza.jpg
 ---
 
 Getting a blog up and running is remarkably simple using [Jekyll][jekyll].
