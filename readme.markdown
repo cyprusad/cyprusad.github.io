@@ -12,5 +12,7 @@ This website is deployed with [GitHub Pages](http://pages.github.com)
 
 ## Licensing
 
+[test link](#deployment)
+
 [MIT](https://github.com/holman/left/blob/master/LICENSE).
 
